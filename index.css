@@ -1,0 +1,673 @@
+
+body {
+    margin: 0;
+    line-height: normal;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+@media  (max-width: 440px) {
+.frame-93-1{
+    display: none;
+}
+
+}
+
+
+.cart-btn{
+    cursor: pointer;
+}
+.categories-btn{
+    cursor: pointer;
+
+}
+
+.logo-ssgs-1 {
+    width: 55px;
+    position: relative;
+    height: 55px;
+    object-fit: cover;
+}
+.block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+#search-for-items {
+    position: relative;
+    font-weight: 500;
+}
+#search-for-items-wrapper {
+    display: flex;
+    border-radius: 8px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.search {
+    flex: 1;
+    border-radius: 2px 0px 0px 2px;
+    background-color: #f3f3f3;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 12px;
+}
+.draft24actionuser-icon {
+    width: 24px;
+    position: relative;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.login-child {
+    width: 1px;
+    position: relative;
+    border-right: 1px solid #d9d9d9;
+    box-sizing: border-box;
+    height: 25px;
+}
+.login {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.cart {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 6px;
+}
+.user-details {
+    width: 293.5px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0px 0px 0px 72px;
+    box-sizing: border-box;
+    gap: 20px;
+    font-size: 16px;
+    color: #666;
+    font-family: Poppins;
+}
+.header {
+    align-self: stretch;
+    background-color: #fff;
+    border-bottom: 1px solid #d9d9d9;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 32px;
+    gap: 10px 24px;
+    font-size: 14px;
+    color: #adadad;
+}
+.brows-all-categories {
+    position: relative;
+    font-weight: 600;
+}
+.categories-btn {
+    border-radius: 2px;
+    background-color: #3bb77e;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 14px;
+    gap: 9px;
+}
+.home-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 10px;
+    color: #000;
+}
+.experience-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 10px;
+}
+.nav-links {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 24px;
+    color: #253d4e;
+}
+.iconlylight-outlinecall {
+    width: 20px;
+    position: relative;
+    height: 20px;
+    object-fit: cover;
+}
+.support {
+    width: 254px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px 10px 10px;
+    box-sizing: border-box;
+    gap: 5px;
+    font-size: 18px;
+    color: #3bb77e;
+}
+.topbar {
+    align-self: stretch;
+    background-color: #fff;
+    border-bottom: 1px solid #d9d9d9;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 32px;
+    gap: 10px 136px;
+    font-size: 16px;
+    color: #fff;
+}
+.frame-93-1 {
+    align-self: stretch;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    height: 477px;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.featured-products {
+    align-self: stretch;
+    position: relative;
+    font-weight: 600;
+}
+.card-child {
+    width: 224px;
+    position: relative;
+    height: 144px;
+    object-fit: cover;
+}
+.vegetables {
+    position: relative;
+}
+.redish-500g {
+    position: relative;
+    font-size: 16px;
+    font-weight: 600;
+    color: #253d4e;
+}
+.info {
+    align-self: stretch;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 8px 0px;
+    gap: 7px;
+}
+.iconlyboldstar {
+    width: 16px;
+    position: relative;
+    height: 16px;
+}
+.iconlyboldstar-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2px;
+}
+.rating {
+    width: 107px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 4px;
+}
+.mrfood {
+    color: #3bb77e;
+}
+.seller {
+    position: relative;
+    font-size: 12px;
+}
+.rating-parent {
+    align-self: stretch;
+    height: 33.7px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 3px;
+    font-size: 11px;
+}
+.div2 {
+    position: relative;
+    text-decoration: line-through;
+    line-height: 18px;
+}
+.price {
+    align-self: stretch;
+    width: 89.5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.lishopping-cart-icon {
+    width: 12px;
+    position: relative;
+    height: 12px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.cart-btn {
+    align-self: stretch;
+    width: 89.5px;
+    border-radius: 2px;
+    background-color: #def9ec;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    box-sizing: border-box;
+    gap: 5px;
+    font-size: 14px;
+    color: #3bb77e;
+    font-family: Quicksand;
+}
+.price-parent {
+    width: 202px;
+    height: 33.7px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+    color: #222;
+    font-family: Poppins;
+}
+.card-info {
+    width: 224px;
+    background-color: #fff;
+    height: 154.3px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+    gap: 15px;
+}
+.card {
+    border-radius: 3px;
+    background-color: #fff;
+    border: 1px solid rgba(173, 173, 173, 0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 2px;
+}
+.cards {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 52px 92px;
+    font-size: 12px;
+    color: #adadad;
+}
+.featured-products-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 48px;
+}
+.home-inner {
+    align-self: stretch;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 64px;
+}
+.image-32-icon {
+    width: 219px;
+    position: relative;
+    height: 179px;
+    object-fit: cover;
+}
+.chhedas-maharaja {
+    margin-block-start: 0;
+    margin-block-end: 4px;
+}
+.delight-gift-pack {
+    margin: 0;
+}
+.chhedas-maharaja-delight-container {
+    position: relative;
+    line-height: 18px;
+}
+.info4 {
+    align-self: stretch;
+    height: 37px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 8px 0px;
+    box-sizing: border-box;
+}
+.rating-parent1 {
+    align-self: stretch;
+    height: 33.7px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 3px;
+    font-size: 11px;
+    color: #adadad;
+    font-family: Quicksand;
+}
+.div14 {
+    position: relative;
+    font-size: 11px;
+    text-decoration: line-through;
+    line-height: 18px;
+}
+.price-parent2 {
+    width: 202px;
+    height: 33.7px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-info4 {
+    align-self: stretch;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 10px;
+    gap: 15px;
+}
+.image-34-icon {
+    align-self: stretch;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    height: 179px;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.kurkure-masala-munch {
+    width: 204px;
+    position: relative;
+    line-height: 18px;
+    display: inline-block;
+}
+.cards1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 0px 0px 0px 14px;
+    gap: 52px 92px;
+    font-size: 15px;
+    color: #222;
+    font-family: Poppins;
+}
+.image-36-icon {
+    align-self: stretch;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    height: 177px;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.buy-1-get {
+    color: #54b22c;
+}
+.card-info8 {
+    width: 224px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+    gap: 15px;
+}
+.image-46-icon {
+    align-self: stretch;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    height: 166px;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.image-47-icon {
+    align-self: stretch;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    height: 167px;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.image-48-icon {
+    align-self: stretch;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    height: 189px;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.popular-categories {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    line-height: 20px;
+}
+.fruits-vegetables-container {
+    position: absolute;
+    top: 56px;
+    left: 0px;
+    font-size: 16px;
+    line-height: 37px;
+}
+
+
+.popular-categories {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    line-height: 20px;
+}
+.fruits-vegetables {
+    margin: 0;
+}
+.fruits-vegetables-container {
+    position: absolute;
+    top: 56px;
+    left: 0px;
+    font-size: 16px;
+    line-height: 37px;
+}
+.popular-category {
+    width: 193px;
+    position: relative;
+    height: 278px;
+}
+.services {
+    width: 225px;
+    position: relative;
+    height: 278px;
+}
+.contact-us1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 20px;
+    line-height: 20px;
+}
+.div {
+    position: absolute;
+    top: 22px;
+    left: 35px;
+    line-height: 20px;
+}
+.whats-app {
+    position: absolute;
+    top: 0px;
+    left: 35px;
+    line-height: 20px;
+}
+.ant-designwhats-app-outlined-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+}
+.parent {
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    width: 136px;
+    height: 42px;
+}
+.div1 {
+    position: absolute;
+    top: 23px;
+    left: 35px;
+    line-height: 20px;
+}
+.call-us {
+    position: absolute;
+    top: 1px;
+    left: 35px;
+    line-height: 20px;
+}
+.group {
+    position: absolute;
+    top: 102px;
+    left: 0px;
+    width: 136px;
+    height: 43px;
+}
+.contact-us {
+    width: 136px;
+    position: relative;
+    height: 145px;
+    font-size: 16px;
+}
+.carbonlogo-youtube-icon {
+    position: absolute;
+    top: 0px;
+    left: 96px;
+    width: 33px;
+    height: 32px;
+    overflow: hidden;
+}
+.rifacebook-fill-icon {
+    position: absolute;
+    top: 0px;
+    left: 48px;
+    width: 33px;
+    height: 32px;
+    overflow: hidden;
+}
+.phinstagram-logo-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 33px;
+    height: 32px;
+    overflow: hidden;
+}
+.carbonlogo-youtube-parent {
+    width: 129px;
+    position: relative;
+    height: 32px;
+}
+.footer {
+    width: 100%;
+    position: relative;
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding: 49px 117px 49px 95px;
+    box-sizing: border-box;
+    gap: 71px 95px;
+    text-align: left;
+    font-size: 20px;
+    color: #414141;
+    font-family: Poppins;
+}
+
+
+.home {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: 32px;
+    color: #000;
+    font-family: Quicksand;
+}
+

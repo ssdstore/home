@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="initial-scale=1, width=device-width">
+  	
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600&display=swap" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" />
+  	<style>
+
+
+
+
+
+
+
+body {
+  	margin: 0;
+  	line-height: normal;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.logo-ssgs-1 {
+  	width: 55px;
+  	position: relative;
+  	height: 55px;
+  	object-fit: cover;
+}
+.block {
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+}
+.search-for-items {
+  	position: relative;
+  	font-weight: 500;
+}
+.search-for-items-wrapper {
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+}
+.search {
+  	flex: 1;
+  	border-radius: 2px 0px 0px 2px;
+  	background-color: #f3f3f3;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	flex-wrap: wrap;
+  	align-content: center;
+  	padding: 12px;
+}
+.draft24actionuser-icon {
+  	width: 24px;
+  	position: relative;
+  	height: 24px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.login2 {
+  	position: relative;
+  	line-height: 18px;
+}
+.login-child {
+  	width: 1px;
+  	position: relative;
+  	border-right: 1px solid #d9d9d9;
+  	box-sizing: border-box;
+  	height: 25px;
+}
+.login {
+  	display: flex;
+  	flex-direction: row;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 20px;
+}
+.cart {
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	gap: 6px;
+}
+.user-details {
+  	width: 293.5px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	padding: 0px 0px 0px 72px;
+  	box-sizing: border-box;
+  	gap: 20px;
+  	font-size: 16px;
+  	color: #666;
+  	font-family: Poppins;
+}
+.header {
+  	align-self: stretch;
+  	background-color: #fff;
+  	border-bottom: 1px solid #d9d9d9;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	flex-wrap: wrap;
+  	align-content: center;
+  	padding: 32px;
+  	gap: 10px 24px;
+}
+.brows-all-categories {
+  	position: relative;
+  	font-weight: 600;
+}
+.categories-btn {
+  	border-radius: 2px;
+  	background-color: #3bb77e;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	padding: 14px;
+  	gap: 9px;
+}
+
+
+.top-categories {
+  	color: #54b22c;
+}
+.shop-from-top-container {
+  	align-self: stretch;
+  	position: relative;
+  	font-weight: 600;
+}
+.dairy-breakfast1 {
+  	position: absolute;
+  	width: 57.68%;
+  	top: 83.8%;
+  	left: 20.95%;
+  	line-height: 20px;
+  	display: inline-block;
+}
+.img-child {
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 0%;
+  	border-radius: 10px;
+  	background-color: #f3f9fb;
+}
+.image-20-icon {
+  	position: absolute;
+  	top: 12.91px;
+  	left: 0.15px;
+  	width: 95px;
+  	height: 158px;
+  	object-fit: cover;
+}
+.image-19-icon {
+  	position: absolute;
+  	top: 71.91px;
+  	left: 38.15px;
+  	width: 99px;
+  	height: 105px;
+  	object-fit: cover;
+}
+.img {
+  	position: absolute;
+  	height: 75.66%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 24.34%;
+  	left: 0%;
+}
+.dairy-breakfast {
+  	width: 143.9px;
+  	position: relative;
+  	height: 246.9px;
+}
+.egg-meat {
+  	position: absolute;
+  	width: 60.39%;
+  	top: 83.8%;
+  	left: 15.28%;
+  	line-height: 20px;
+  	display: inline-block;
+}
+.image-22-icon {
+  	position: absolute;
+  	top: 27.91px;
+  	left: 0.29px;
+  	width: 124px;
+  	height: 132px;
+  	object-fit: cover;
+}
+.image-21-icon {
+  	position: absolute;
+  	top: 79.91px;
+  	left: 30.29px;
+  	width: 107px;
+  	height: 94px;
+  	object-fit: cover;
+}
+.img1 {
+  	position: absolute;
+  	height: 75.69%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 24.31%;
+  	left: 0%;
+}
+.egg-meat-fish {
+  	width: 143.9px;
+  	position: relative;
+  	height: 246.8px;
+}
+.icy-delights1 {
+  	position: absolute;
+  	height: 8.82%;
+  	width: 66.55%;
+  	top: 91.19%;
+  	left: 11.97%;
+  	line-height: 20px;
+  	display: inline-block;
+}
+.img-inner {
+  	position: absolute;
+  	height: 100%;
+  	width: 99.86%;
+  	top: 0%;
+  	right: -0.05%;
+  	bottom: 0%;
+  	left: 0.19%;
+  	border-radius: 10px;
+  	background-color: #f3f9fb;
+}
+.image-28-icon {
+  	position: absolute;
+  	top: 12.91px;
+  	left: 0px;
+  	width: 134px;
+  	height: 148px;
+  	object-fit: cover;
+}
+.image-27-icon {
+  	position: absolute;
+  	top: 77.91px;
+  	left: 34px;
+  	width: 105px;
+  	height: 105px;
+  	object-fit: cover;
+}
+.img2 {
+  	position: absolute;
+  	height: 82.36%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 17.64%;
+  	left: 0%;
+}
+.icy-delights {
+  	width: 144.1px;
+  	position: relative;
+  	height: 226.8px;
+}
+.cold-drinks {
+  	position: absolute;
+  	width: 64.63%;
+  	top: 83.8%;
+  	left: 17.09%;
+  	line-height: 20px;
+  	display: inline-block;
+}
+.image-25-icon {
+  	position: absolute;
+  	top: 12.91px;
+  	left: 19.59px;
+  	width: 52px;
+  	height: 170px;
+  	object-fit: cover;
+}
+.image-26-icon {
+  	position: absolute;
+  	top: 50.91px;
+  	left: 39.59px;
+  	width: 104px;
+  	height: 123px;
+  	object-fit: cover;
+}
+.snacks-munchies1 {
+  	position: absolute;
+  	width: 59.76%;
+  	top: 83.8%;
+  	left: 20.07%;
+  	line-height: 20px;
+  	display: inline-block;
+}
+.image-29-icon {
+  	position: absolute;
+  	top: 23.91px;
+  	left: 7.88px;
+  	width: 94px;
+  	height: 137px;
+  	object-fit: cover;
+}
+.image-30-icon {
+  	position: absolute;
+  	top: 58.91px;
+  	left: 35.88px;
+  	width: 106px;
+  	height: 124px;
+  	object-fit: cover;
+}
+.cards {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	flex-wrap: wrap;
+  	align-content: center;
+  	padding: 0px 0px 0px 14px;
+  	gap: 52px;
+  	text-align: center;
+  	font-size: 16px;
+  	color: #222;
+  	font-family: Poppins;
+}
+.shop-from-top-categories-parent {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 48px;
+}
+.over {
+  	width: 100%;
+  	position: relative;
+  	background-color: #fff;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	padding: 64px 64px 64px 87px;
+  	box-sizing: border-box;
+  	text-align: left;
+  	font-size: 32px;
+  	color: #000;
+  	font-family: Quicksand;
+}
+
+
+
+.home-wrapper {
+  	display: flex;
+  	flex-direction: row;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	padding: 10px;
+  	color: #000;
+}
+.experience-wrapper {
+  	display: flex;
+  	flex-direction: row;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	padding: 10px;
+}
+.nav-links {
+  	flex: 1;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	flex-wrap: wrap;
+  	align-content: center;
+  	gap: 24px;
+  	color: #253d4e;
+}
+.iconlylight-outlinecall {
+  	width: 20px;
+  	position: relative;
+  	height: 20px;
+  	object-fit: cover;
+}
+.support {
+  	width: 254px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 10px 20px 10px 10px;
+  	box-sizing: border-box;
+  	gap: 5px;
+  	font-size: 18px;
+  	color: #3bb77e;
+}
+.topbar {
+  	align-self: stretch;
+  	background-color: #fff;
+  	border-bottom: 1px solid #d9d9d9;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	flex-wrap: wrap;
+  	align-content: center;
+  	padding: 32px;
+  	gap: 10px 136px;
+  	font-size: 16px;
+  	color: #fff;
+}
+.img-20241006-090652-1-icon {
+  	width: 310px;
+  	position: relative;
+  	border-radius: 12px;
+  	height: 314px;
+  	object-fit: cover;
+}
+.mr-mahendra-choudhary {
+  	align-self: stretch;
+  	position: relative;
+  	letter-spacing: -0.02em;
+  	line-height: 120%;
+  	font-weight: 600;
+}
+.mahendra-choudhary-is {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 16px;
+  	line-height: 140%;
+  	color: #757575;
+}
+.text {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 8px;
+}
+.jghj {
+  	flex: 1;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	min-width: 160px;
+}
+.aga {
+  	flex: 1;
+  	border-radius: 8px;
+  	background-color: #fff;
+  	border: 1px solid #d9d9d9;
+  	box-sizing: border-box;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	flex-wrap: wrap;
+  	align-content: flex-start;
+  	padding: 24px 24px 24px 16px;
+  	gap: 24px;
+  	min-width: 240px;
+}
+.ghjghj {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	flex-wrap: wrap;
+  	align-content: center;
+  	padding: 26px;
+  	font-size: 24px;
+  	color: #1e1e1e;
+  	font-family: Inter;
+}
+
+.popular-categories {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    line-height: 20px;
+}
+.fruits-vegetables-container {
+    position: absolute;
+    top: 56px;
+    left: 0px;
+    font-size: 16px;
+    line-height: 37px;
+}
+
+
+.popular-categories {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    line-height: 20px;
+}
+.fruits-vegetables {
+    margin: 0;
+}
+.fruits-vegetables-container {
+    position: absolute;
+    top: 56px;
+    left: 0px;
+    font-size: 16px;
+    line-height: 37px;
+}
+.popular-category {
+    width: 193px;
+    position: relative;
+    height: 278px;
+}
+.services {
+    width: 225px;
+    position: relative;
+    height: 278px;
+}
+.contact-us1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 20px;
+    line-height: 20px;
+}
+.div {
+    position: absolute;
+    top: 22px;
+    left: 35px;
+    line-height: 20px;
+}
+.whats-app {
+    position: absolute;
+    top: 0px;
+    left: 35px;
+    line-height: 20px;
+}
+.ant-designwhats-app-outlined-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+}
+.parent {
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    width: 136px;
+    height: 42px;
+}
+.div1 {
+    position: absolute;
+    top: 23px;
+    left: 35px;
+    line-height: 20px;
+}
+.call-us {
+    position: absolute;
+    top: 1px;
+    left: 35px;
+    line-height: 20px;
+}
+.group {
+    position: absolute;
+    top: 102px;
+    left: 0px;
+    width: 136px;
+    height: 43px;
+}
+.contact-us {
+    width: 136px;
+    position: relative;
+    height: 145px;
+    font-size: 16px;
+}
+.carbonlogo-youtube-icon {
+    position: absolute;
+    top: 0px;
+    left: 96px;
+    width: 33px;
+    height: 32px;
+    overflow: hidden;
+}
+.rifacebook-fill-icon {
+    position: absolute;
+    top: 0px;
+    left: 48px;
+    width: 33px;
+    height: 32px;
+    overflow: hidden;
+}
+.phinstagram-logo-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 33px;
+    height: 32px;
+    overflow: hidden;
+}
+.carbonlogo-youtube-parent {
+    width: 129px;
+    position: relative;
+    height: 32px;
+}
+.footer {
+    width: 100%;
+    position: relative;
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding: 49px 117px 49px 95px;
+    box-sizing: border-box;
+    gap: 71px 95px;
+    text-align: left;
+    font-size: 20px;
+    color: #414141;
+    font-family: Poppins;
+}
+
+
+.home {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: 32px;
+    color: #000;
+    font-family: Quicksand;
+}
+
+
+
+    </style>
+  	
+  	
+</head>
+<body>
+  	
+	<div class="home">
+        <div class="header"><a href="index.html">
+              <div class="block">
+                    <img class="logo-ssgs-1" alt="" src="Logo SSGS.png">
+                    
+              </div></a>
+              
+                    <input type="text" placeholder="Search for items..." class="search"  id="search-for-items">
+                      
+                    
+              
+              <div class="user-details"><a href="Captcha.html">
+                    <div class="login">
+                          <div class="cart">
+                                <img class="draft24actionuser-icon" alt="" src="user.png">
+                                
+                                <div class="chhedas-maharaja-delight-container">Login</div>
+                          </div>
+                          <div class="login-child">
+                          </div>
+                    </div></a>
+                    <div class="cart">
+                          <img class="draft24actionuser-icon" alt="" src="Buy.png">
+                          
+                          <div class="chhedas-maharaja-delight-container">Cart</div>
+                    </div>
+              </div>
+        </div>
+        <div class="topbar">
+              <div class="categories-btn">
+                    <img class="draft24actionuser-icon" alt="" src="li_layout-grid.png">
+                    
+                    <div class="brows-all-categories">Brows All Categories</div>
+              </div>
+              <div class="nav-links"><a href="index.html">
+                    <div class="home-wrapper">
+                          <div class="search-for-items">Home</div>
+                    </div></a><a href="experience.html">
+                    <div class="experience-wrapper">
+                          <div class="search-for-items">Experience</div>
+                    </div></a><a href="new.html">
+                    <div class="experience-wrapper">
+                          <div class="search-for-items">New products</div>
+                    </div></a><a href="about.html">
+                    <div class="experience-wrapper">
+                          <div class="search-for-items">About</div>
+                    </div></a>
+              </div><a href="https://wa.me/+918446643990?text= I need an help">
+              <div class="support">
+                    <img class="iconlylight-outlinecall" alt="" src="Call1.png">
+                    
+                    <div class="brows-all-categories">Contact now</div>
+              </div></a>
+        </div>
+        <!DOCTYPE html>
+        <html>
+        <head>
+              <meta charset="utf-8">
+              <meta name="viewport" content="initial-scale=1, width=device-width">
+              
+              <link rel="stylesheet"  href="./index.css" />
+              <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" />
+              <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" />
+              
+              
+              
+        </head>
+        <body>
+              
+              <div class="over">
+                    <div class="shop-from-top-categories-parent">
+                          <div class="shop-from-top-container">
+                                <span>Shop from</span>
+                                <span class="top-categories"> Top Categories</span>
+                          </div>
+                          <div class="cards">
+                                <div class="dairy-breakfast">
+                                      <div class="dairy-breakfast1">Dairy & Breakfast</div>
+                                      <div class="img">
+                                            <div class="img-child">
+                                            </div>
+                                            <img class="image-20-icon" alt="" src="image 20.png">
+                                            
+                                            <img class="image-19-icon" alt="" src="image 19.png">
+                                            
+                                      </div>
+                                </div>
+                                <div class="egg-meat-fish">
+                                      <div class="egg-meat">Egg, Meat & Fish</div>
+                                      <div class="img1">
+                                            <div class="img-child">
+                                            </div>
+                                            <img class="image-22-icon" alt="" src="image 22.png">
+                                            
+                                            <img class="image-21-icon" alt="" src="image 21.png">
+                                            
+                                      </div>
+                                </div>
+                                <div class="icy-delights">
+                                      <div class="icy-delights1">Icy Delights</div>
+                                      <div class="img2">
+                                            <div class="img-inner">
+                                            </div>
+                                            <img class="image-28-icon" alt="" src="image 28.png">
+                                            
+                                            <img class="image-27-icon" alt="" src="image 27.png">
+                                            
+                                      </div>
+                                </div>
+                                <div class="dairy-breakfast">
+                                      <div class="cold-drinks">Cold drinks & Juices</div>
+                                      <div class="img">
+                                            <div class="img-child">
+                                            </div>
+                                            <img class="image-25-icon" alt="" src="image 25.png">
+                                            
+                                            <img class="image-26-icon" alt="" src="image 26.png">
+                                            
+                                      </div>
+                                </div>
+                                <div class="dairy-breakfast">
+                                      <div class="snacks-munchies1">Snacks & Munchies</div>
+                                      <div class="img">
+                                            <div class="img-child">
+                                            </div>
+                                            <img class="image-29-icon" alt="" src="image 29.png">
+                                            
+                                            <img class="image-30-icon" alt="" src="image 30.png">
+                                            
+                                      </div>
+                                </div>
+                          </div>
+                    </div>
+              </div>
+              
+              
+              
+              
+        </body>
+        </html>
+            <div class="footer">
+                <div class="popular-category">
+                      <div class="popular-categories">Popular Categories</div>
+                      <div class="fruits-vegetables-container">
+                            <p class="fruits-vegetables">Fruits & Vegetables</p>
+                            <p class="fruits-vegetables">Dairy & Breakfasts</p>
+                            <p class="fruits-vegetables">Egg, Meat & Fish</p>
+                            <p class="fruits-vegetables">Bath & Body</p>
+                            <p class="fruits-vegetables">Cold drinks & Juices</p>
+                            <p class="fruits-vegetables">Snacks & Munchies</p>
+                      </div>
+                </div>
+                <div class="services">
+                      <div class="popular-categories">Customer Services</div>
+                      <div class="fruits-vegetables-container">
+                            <p class="fruits-vegetables">About Us</p>
+                            <p class="fruits-vegetables">Terms & Conditions</p>
+                            <p class="fruits-vegetables">FAQ</p>
+                            <p class="fruits-vegetables">Privacy Policy</p>
+                            <p class="fruits-vegetables">E-waste Policy</p>
+                            <p class="fruits-vegetables">Cancellation & Return Policy</p>
+                      </div>
+                </div>
+                <div class="contact-us"><a href="https://wa.me/+918446643990?text= I need an help">
+                      <div class="contact-us1">Contact Us</div>
+                      <div class="parent">
+                            <div class="div">8446643990</div>
+                            <div class="whats-app">Whats App</div>
+                            <img class="ant-designwhats-app-outlined-icon" alt="" src="whatsapp.png">
+                            
+                      </div></a><a href="tel:+918446643990">
+                      <div class="group">
+                            <div class="div1">8446643990</div>
+                            <div class="call-us">Call Us</div>
+                            <img class="ant-designwhats-app-outlined-icon" alt="" src="Call.png">
+                            
+                      </div></a>
+                </div>
+                <div class="carbonlogo-youtube-parent">
+                      <img class="carbonlogo-youtube-icon" alt="" src="youtube.png">
+                      
+                      <img class="rifacebook-fill-icon" alt="" src="ri_facebook-fill.png">
+                      
+                      <img class="phinstagram-logo-icon" alt="" src="ph_instagram-logo.png">
+                      
+                </div>
+          </div>
+    </div>
+    
+  	
+  	
+  	
+  	
+</body>
+</html>
